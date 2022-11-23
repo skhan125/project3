@@ -1,40 +1,18 @@
-/* stylelint-enable */
-* {
-  box-sizing: border-box;
-}
 ol, ul{
   list-style: none;
 }
-a{
-    text-decoration: none;
-    color: inherit;
-}
+
 section a {
     color: #26c99f;
 }
 section p {
     float: none!important;
 }
-section h1 {
-    background-color: #cf1e1e;
-    color: #f8d4bf;
-}
-section h2 {
-    background-color: #000000;;
-    color: #fdcaac;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-}
 section h3 {
-    background-color: #934949;
-    color: #c19b85;
+    background-color: #B0B0B0;
+    color: #000000;
 }
-/* House styles below */
-@font-face {
-    font-family: "American Typewriter";
-}
+
 *{
     box-sizing: border-box;
 }
@@ -42,6 +20,7 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: #dadada;
     font-size: 1em;
+    font-weight: bold;
     font-weight: 500;
     /* font-size: 1.5rem; */
 }
@@ -76,10 +55,18 @@ h1, h2, h3, h4, h5{
 h1{
   font-size: 1.602em;
   line-height:2em;
+  background-color: #cf1e1e;
+  color: #f8d4bf;
 }
 h2{
   font-size: 1.424em;
   line-height:1.5em;
+  background-color: #404040;
+  color: #ffffff;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 h3{
   font-size: 1.266em;
@@ -107,69 +94,6 @@ section section{
 main{
   padding: 0 10px;
 }
-
-.custom-map-control-button {
-  background-color: #fff;
-  border: 0;
-  border-radius: 2px;
-  box-shadow: 0 1px 4px -1px rgba(0, 0, 0, 0.3);
-  margin: 10px;
-  padding: 0 0.5em;
-  font: 400 18px Roboto, Arial, sans-serif;
-  overflow: hidden;
-  height: 40px;
-  cursor: pointer;
-}
-.custom-map-control-button:hover {
-  background: rgb(235, 235, 235);
-}
-
-#map {
-    top: 5rem;
-    height: 50rem;
-    /* The height is 400 pixels */
-    width: 100%;
-    /* The width is the width of the web page */
-}
-
-#carousel {
-  width: 670px;
-  position: relative;
-  overflow: hidden;
-  min-height: 500px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-content: flex-start;
-  justify-content: space-between;
-}
-
-#carousel ul{
-  display:flex;
-  flex-direction: row;
-  width: max-content;
-  position: relative;
-  transition: all 1s;
-}
-
-#carousel li{
-  width: 670px;
-  max-height: 500px;
-}
-
-#carousel button{
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-}
-
-#carousel button:nth-of-type(2){
-  right: 0;
-  position: relative;
-}
-
-
-
 @media screen and (min-width: 700px){
   section{
     height: max-content;
@@ -207,4 +131,7 @@ img{
 iframe {
   width: 100%;
   padding: 10px 0;
+}
+footer {
+    color:#ff0000
 }
