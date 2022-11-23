@@ -1,30 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-     <meta charset="UTF-8">
+  <meta charset="UTF-8">
   <title>Map</title>
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-      <script src="js/map.js"></script>
+  <script src="js/map.js"></script>
   <script 
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAXyQh5ZL7GKXbGQX2zjBfZN98dRUfHyxo&callback=initMap"
     defer>
-    
+  </script>
 </head>
+
 <body>
-<header>
-  <nav class="top_navigation">
-    <ul>
-     <li><a href="index.html"><img src="media/photography.png" alt="Photography"></a></li>
+  
+  <header>
+    <nav id="main-navbar">
+      <div id="navbar-container">
+        <ul>
+          <li><a href="index.html"><img src="media/photography.png" alt="Photography"></a></li>
         <li><a href="resume.html"><img src="media/resume.png" alt="Resume"></a></li>
         <li><a href="cars.html"><img src="media/cars.png" alt="Cars"></a></li>
 	<li><a href="map.html"><img src="media/map.png" alt="Map"></a></li>
-    </ul>
-  </nav>
-</header>
-<div id="map"></div>
+        </ul>
+      </div> 
+    </nav>
+  </header>  
+  
+  <div id="wrapper">
+    <div id="map"></div>
+  </div>
+
 </body>
-</html>
