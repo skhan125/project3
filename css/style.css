@@ -149,12 +149,12 @@ footer {
 #map{
   width: 700px;
   height: 540px;
-  background-color: #DE3163;
+  background-color: #ff0000;
   margin: auto; 
 }
 
 .slider div{
-  background-color: #DE3163;
+  background-color: #ff0000;
   margin: auto;
   align-items: center;
   justify-content: center;
@@ -162,7 +162,7 @@ footer {
 }
 
 .bx-viewport {
-  background-color: #DE3163;
+  background-color: #ff0000;
   margin: auto;
 }
 
@@ -180,5 +180,5 @@ footer {
 }
 
 .bx-pager.bx-default-pager a:hover{
-  background: #DE3163;
+  background: #ff0000;
 }
